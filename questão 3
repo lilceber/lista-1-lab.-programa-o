@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    float valor;
+    printf ("digite um valor real: "); 
+    scanf("%f",&valor);
+    printf ("%.1f",valor);
+    return 0;
+}
