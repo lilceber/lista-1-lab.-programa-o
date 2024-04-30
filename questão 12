@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+ int x,y,soma,prod,dif,quo,resto;
+ 
+ printf("digite o primeiro número: ");
+ scanf ("%d",&x);
+ printf("digite o segundo número: ");
+ scanf ("%d",&y);
+ 
+ soma = x + y;
+ prod = x * y;
+ dif = x - y;
+ quo = x / y;
+ resto = x % y;
+ 
+ printf ("soma: %d\nproduto: %d\ndiferença: %d\nquociente: %d\nresto: %d",soma,prod,dif,quo,resto);
+ 
+ return 0;
+}
