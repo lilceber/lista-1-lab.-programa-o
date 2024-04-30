@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+ float cot,dolar,x;
+ 
+ printf ("qual o valor da cotação do dolar hoje? ");
+ scanf ("%f",&cot);
+ printf ("digite o valor em reais que você deseja coverter: ");
+ scanf ("%f",&x);
+ 
+ dolar = x / cot;
+ 
+ printf ("valor em dolares: %.2f",dolar);
+    return 0;
+}
