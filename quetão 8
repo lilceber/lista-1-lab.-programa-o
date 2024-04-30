@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+ int x,quadrado;
+ 
+ printf ("digite um valor: ");
+ scanf ("%d",&x);
+ 
+ quadrado = x * x;
+ printf ("valor ao quadrado: %d",quadrado);
+    return 0;
+}
