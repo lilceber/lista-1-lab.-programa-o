@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+ int comp,h,lar,v;
+ 
+ printf ("digite o comprimento da caixa: ");
+ scanf ("%d",&comp);
+ printf ("digite a altura da caixa: ");
+ scanf ("%d",&h);
+ printf ("digite a largura caixa: ");
+ scanf ("%d",&lar);
+ 
+ v = comp * h * lar;
+ 
+ printf ("volume é igual a: %d",v);
+    return 0;
+}
