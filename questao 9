@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ int x, ant, suc;
+ 
+ printf ("digite um valor: ");
+ scanf ("%d",&x);
+ 
+ suc = x + 1;
+ ant = x - 1;
+ 
+ printf ("sucessor: %d\nantecessor: %d",suc,ant);
+    return 0;
+}
