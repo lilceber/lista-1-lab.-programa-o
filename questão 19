@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main (){
+
+    printf ("RETÂNGULO:\n\n********\n*      *\n*      *\n*      *\n*      *\n*      *\n*      *\n********");
+    
+    printf ("\n\nELIPSE:\n\n   ***\n  *   *\n *     *\n *     *\n *     *\n *     *\n *     *\n  *   *\n   ***");
+    
+    printf ("\n\n SETA:\n\n   *\n  ***\n *****\n   *\n   *\n   *\n   *\n   *\n   *");
+    
+    printf ("\n\nLOSANGO:\n\n     *\n    * *\n   *   *\n  *     *\n *       *\n  *     *\n   *   *\n    * *\n     *");
+return 0;
+}
