@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int x,mod;
+    printf("Digite um número inteiro: ");
+    scanf("%d", &x);
+ mod = (x >= 0) * x + (x < 0) * (-x);
+    printf("O valor absoluto de %d é %d\n", x, mod);
+    return 0;
+}
