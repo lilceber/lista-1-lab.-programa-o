@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+ float pi,raio,c,d,a;
+ printf("digite o raio: ");
+ scanf("%f",&raio);
+pi = 3.14159;
+c = 2 * pi * raio;
+d = 2 * raio;
+a = pi * pow(raio,2);
+printf("diâmetro: %.f\ncircunferência: %.f\nárea: %.f",d,c,a);
+ return 0;
+}
