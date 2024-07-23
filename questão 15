@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+ int dias;
+ float liquido,bruto;
+ printf("quantos dias o vendedor trabalhou nesse mês? ");
+ scanf("%d",&dias);
+liquido = dias * 50.25;
+if (dias < 11){
+    liquido = liquido;
+} else if (dias < 21){ 
+    liquido = liquido + liquido * 0.2;
+} else {
+    liquido = liquido + liquido * 0.3;
+}
+bruto = liquido * 0.1;
+liquido = liquido - bruto;
+printf("o salário líquido é: %.2f",liquido);
+return 0;
+}
