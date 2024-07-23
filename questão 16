@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+ float ha,ht,inss,liquido,bruto;
+ printf("insira o valor da hora aula: ");
+ scanf("%f",&ha);
+ printf("insira o número de horas trabalhadas no mês: ");
+ scanf("%f",&ht); 
+ printf("insira o percentual de desconto do inss (x/100): ");
+ scanf("%f",&inss);
+ bruto = ha * ht;
+ liquido = bruto - bruto * inss;
+ printf ("salário bruto: %f\nsalário liquido: %f",bruto,liquido);
+return 0;
+}
