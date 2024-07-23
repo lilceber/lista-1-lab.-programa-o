@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+ int A, B, X;
+ A = 10;
+ B = 5;
+printf ("digite o valor A: ");
+scanf("%d",&A);
+printf ("digite o valor B: ");
+scanf("%d",&B);
+printf ("A = %d\nB = %d",A,B);
+X = A;
+A = B;
+B = X;
+printf ("\n\nAPÓS A TROCA: \n\nA = %d\nB = %d",A,B);
+    return 0;
+}
