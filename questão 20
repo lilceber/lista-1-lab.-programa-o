@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+ int x,resto;
+ printf("digite um número para saber se é par ou ímpar: ");
+ scanf("%d",&x);
+ resto = x % 2;
+printf(resto == 0 ? "\npar" : "\nímpar");
+    return 0;
+}
