@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+ int a,b, resto;
+printf("digite o primeiro número: ");
+scanf("%d",&a);
+printf("digite o segundo número: ");
+scanf("%d",&b);
+resto = b % a;
+printf( resto == 0 ? "o primeiro número é múltiplo do segundo." : "o primeiro número não é múltiplo do segundo.");
+    return 0;
+}
