@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+ float x,y,z,ari,geo;
+ 
+ printf("digite 3 números:\n");
+ scanf("%f\n%f\n%f",&x,&y,&z);
+ 
+ ari = (x + y + z)/3;
+ geo = pow ((x * y * z) , 1.0 / 3.0);
+ 
+ printf("\na média aritmética é: %f\n",ari);
+ printf("a média geométrica é: %f",geo);
+ 
+    return 0;
+}
