@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int x,y,resultado;
+    printf("digite um número: ");
+    scanf("%d",&x);
+    printf("digite o expoente de 2: ");
+    scanf("%d",&y);
+resultado = x * (pow(2 , y));
+printf("resultado: %d",resultado);
+    return 0;
+}
