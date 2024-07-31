@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+ int x,segundos,minutos,horas;
+ 
+ printf("digite um tempo qualquer em segundos: ");
+ scanf("%d",&x);
+ 
+ horas = x/3600;
+ minutos = x/60;
+ segundos = x % 60;
+ 
+ printf("%d horas, %d minutos e %d segundos.",horas,minutos,segundos);
+
+    return 0;
+}
