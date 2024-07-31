@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+  int x,unidade,dezena,centena,resultado;
+printf("digite um número de três dígitos para ver seu inverso: ");
+scanf ("%d%",&x);
+
+unidade = x % 10;
+dezena = (x/10) % 10;
+centena = (x/100) % 10;
+
+resultado = unidade * 100 + dezena * 10 + centena;
+printf("%d",resultado);
+    return 0;
+}
